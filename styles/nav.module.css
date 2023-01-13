@@ -14,8 +14,8 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-}
+
 .list a:hover {
 	color: var(--accent);
 }
-
+}
