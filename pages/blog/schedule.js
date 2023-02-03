@@ -7,7 +7,7 @@ import PostBody from 'components/post-body'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-column'
 import ConvertBody from 'components/convert-body'
 import PostCategories from 'components/post-categories'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 
 export default function Schedule ({
   title,
