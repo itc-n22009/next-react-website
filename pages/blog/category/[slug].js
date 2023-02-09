@@ -44,7 +44,8 @@ export async function getStaticProps (context) {
 
   return {
     props: {
-      name: cat.name
+      name: cat.name,
+      posts
     }
   }
 }

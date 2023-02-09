@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Posts ({ posts }) {
+  console.log(posts)
   return (
     <div className={styles.gridContainer}>
       {posts.map(({ title, slug, eyecatch }) => (
@@ -15,7 +16,7 @@ export default function Posts ({ posts }) {
                   alt=''
                   layout='fill'
                   objectFit='cover'
-                  sizes="(min-width: 1125px) 576px, 50vw"
+                  sizes='(min-width: 1125px) 576px, 50vw'
                   placeholder='blur'
                   blurDataURL={eyecatch.blurDataURL}
                 />
